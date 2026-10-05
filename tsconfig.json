@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "Node",
+    "rootDir": ".",
+    "outDir": "./dist",
+    "allowJs": true,
+    "checkJs": false,
+    "strict": true,
+    "noEmitOnError": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["*.js", "*.ts"],
+  "exclude": ["dist", "node_modules"]
+}
